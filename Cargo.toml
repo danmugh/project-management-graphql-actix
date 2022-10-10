@@ -1,0 +1,17 @@
+[package]
+name = "project-mngt-rust-graphql-actix"
+version = "0.6.7"
+authors = ["dan mugh <contact@danmugh.com>"]
+edition = "2021"
+
+
+[dependencies]
+actix-web = "4"
+async-graphql = { version = "4.0", features = ["bson", "chrono"] }
+async-graphql-actix-web = "4.0"
+serde = "1.0.136"
+dotenv = "0.15.0"
+futures = "0.3"
+
+[dependencies.mongodb]
+version = "2.2.0"
